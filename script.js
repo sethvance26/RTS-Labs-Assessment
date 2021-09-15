@@ -1,9 +1,9 @@
-
-// Print the number of integers in an array that are above the given input and
-// the number that are below, e.g. for the array [1, 5, 2, 1, 10] with input 6,
-// print “above: 1, below: 4”
+// Task #1 Print the number of integers in an array that are above the given input and
+//         the number that are below, e.g. for the array [1, 5, 2, 1, 10] with input 6,
+//         print “above: 1, below: 4”
 
 const array = [1, 5, 2, 1, 10];
+// Below on line 8 you can change this value for further testing.
 let input = 6;
 
 const IntRange = function (input, array) {
@@ -23,8 +23,9 @@ const IntRange = function (input, array) {
 
 IntRange(input, array);
 
-// Rotate the characters in a string by a given input and have the overflow appear
-// at the beginning, e.g. “MyString” rotated by 2 is “ngMyStri”.
+// Task #2 Rotate the characters in a string by a given input and have
+//         the overflow appear at the beginning, e.g. “MyString”
+//         rotated by 2 is “ngMyStri”.
 
 const stringRotation = function (text, input) {
   return (
@@ -33,29 +34,36 @@ const stringRotation = function (text, input) {
   );
 };
 
+//Below I am testing different potential inputs
 console.log(stringRotation("MyString", 1));
 console.log(stringRotation("MyString", 2));
 console.log(stringRotation("MyString", -2));
 
-// Using the scripting language of your choice, write a script that does the following:
+// Task #3 - If you could change 1 thing about your favorite
+//      framework/language/platform (pick one), what would it be?
 
-// Take a path to a text file as an argument (e.g. hello.sh path/to/file.txt)
+//  - My favorite framework would be React.js due to it's ease of use, improved performance,
+//      and Reusable components. If I could change one thing about React, I would add
+//      officially supported librariesfor different things such as routing, animation,
+//      and server side rendering in the same way that Angular has. Sometimes
+//      making a decision about project structure can be a road block
+//      when faced with too many decisions, so officially supported libraries for
+//      React.js would definitely help.
 
-// Add “Hello World” to a new line at the beginning of the file
-
-// Add “Goodbye” to a new line at the end of the file
-
+// Task #4 - Take a path to a text file as an argument (e.g. hello.sh path/to/file.txt)
+//           Add “Hello World” to a new line at the beginning of the file
+//           Add “Goodbye” to a new line at the end of the file
 
 let fs = require("fs");
 
 fs.writeFile("./hello.txt", "Hello world!", (err) => {
-  // If an error occurred, show it and return
+  // If an error occurred, display it and return
   if (err) return console.error(err);
   // Successfully wrote to the file!
 });
 
 fs.appendFile("./hello.txt", "\nGoodbye", (err) => {
-  // If an error occurred, show it and return
+  // If an error occurred, display it and return
   if (err) return console.error(err);
   // Successfully wrote to the file!
 });

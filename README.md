@@ -23,7 +23,7 @@ For this assessment, I was given four tasks with the coding language of my choic
 [GitHub]-(sethvance26)
 
 ## Tests
-To run a test, use the command Please use node script.js to test console logs. 
+Please use node script.js to test console logs. 
 
 ## Usage
 

@@ -12,7 +12,6 @@ RTS-Labs-Assessment
 - [License](#License)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Tests](#Tests)
 - [Questions](#Questions)
 
 ## Description
@@ -22,11 +21,9 @@ For this assessment, I was given four tasks with the coding language of my choic
 [Email]-(sethvance39@gmail.com)
 [GitHub]-(sethvance26)
 
-## Tests
-To run a test, use the command Please use node script.js to test console logs. 
 
 ## Usage
-
+Please run the command `node script.js` to test console logs.
 https://github.com/sethvance26/RTS-Labs-Assessment
 
 

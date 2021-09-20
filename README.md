@@ -16,7 +16,7 @@ RTS-Labs-Assessment
 - [Questions](#Questions)
 
 ## Description
-For this assessment, I was given four tasks with the coding language of my choice. I decided to use Javascript, and Node.js to be able to execute my code outside of the web browser for testing purposes. 
+For this assessment, I was given four tasks with the coding language of my choice. I decided to use Javascript, and Node.js to be able to execute my code outside of the web browser for testing purposes..
 
 ## Contact
 [Email]-(sethvance39@gmail.com)
